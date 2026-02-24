@@ -1,0 +1,6 @@
+{
+  "frontend/src/App.tsx": "Main application component featuring a centered case converter tool with textarea input, uppercase/lowercase conversion buttons, header with branding, and footer with attribution.",
+  "frontend/src/index.css": "Global styles with OKLCH-based color system for light and dark modes, using a minimalist monochromatic palette with subtle grays and blacks for a clean, professional aesthetic.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom design tokens, border radius settings, and system font stack for a clean, native appearance.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file as no backend queries are needed for client-side text transformations."
+}

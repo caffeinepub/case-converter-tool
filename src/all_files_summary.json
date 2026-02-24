@@ -1,0 +1,15 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no functionality, as the application performs all text transformations client-side.",
+  "feature_evidence.json": "Feature evidence report documenting four implemented features: centered text input area, uppercase conversion button, lowercase conversion button, and clean modern design with high confidence.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing the main App component, global styles with OKLCH color system, Tailwind configuration, and empty useQueries hook.",
+  "frontend/index.css": "Tailwind CSS base configuration with OKLCH color system defining CSS custom properties for light and dark themes using monochromatic grays and blacks.",
+  "frontend/index.html": "HTML entry point with root div and module script reference to main.tsx, titled 'Case Converter Tool'.",
+  "frontend/src/App.tsx": "Main React component implementing a case converter tool with textarea input, uppercase/lowercase conversion buttons, header with branding, and footer with attribution link.",
+  "frontend/src/hooks/useActor.ts": "React hook for managing backend actor instances with Internet Identity authentication, handling actor creation and query invalidation on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity storage, and AuthClient lifecycle.",
+  "frontend/src/hooks/useQueries.ts": "Intentionally empty file with comment explaining no backend queries are needed since all text transformations are client-side.",
+  "frontend/src/index.css": "Tailwind CSS configuration with OKLCH-based design tokens for light and dark modes, featuring monochromatic color palette and typography settings.",
+  "frontend/src/main.tsx": "React application entry point setting up QueryClient, InternetIdentityProvider, and rendering the App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom OKLCH color system, border radius variables, container settings, animations, and system font stack.",
+  "project_state.json": "Project state file for a Case Converter Tool that transforms text between uppercase and lowercase using a simple single-page HTML/CSS/JavaScript application. Tracks four implemented features (text input area, uppercase/lowercase buttons, and modern design) with three pending feature requests."
+}

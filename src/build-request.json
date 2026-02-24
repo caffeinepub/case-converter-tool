@@ -1,0 +1,91 @@
+{
+  "kind": "build_request",
+  "title": "Build Case Converter Tool",
+  "projectName": "Case Converter",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a centered text input area with placeholder text 'Enter your text here...' that accepts multi-line text input",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "<textarea id=\"inputText\" placeholder=\"Enter your text here...\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Text area is displayed with appropriate height for multi-line input",
+        "Placeholder text 'Enter your text here...' appears when empty",
+        "User can type and edit text in the text area"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement an UPPERCASE button that converts all text in the input area to uppercase when clicked",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "<button onclick=\"convertUpper()\"",
+          "text.toUpperCase()"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Button is labeled 'UPPERCASE'",
+        "Clicking the button converts all text in the text area to uppercase",
+        "Original text is replaced with the uppercase version"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Implement a lowercase button that converts all text in the input area to lowercase when clicked",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "<button onclick=\"convertLower()\"",
+          "text.toLowerCase()"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Button is labeled 'lowercase'",
+        "Clicking the button converts all text in the text area to lowercase",
+        "Original text is replaced with the lowercase version"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Apply a clean, modern design with centered layout, appropriate spacing between elements, and a minimalist aesthetic using neutral colors and simple typography",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All elements are centered horizontally on the page",
+        "Consistent spacing between text area and buttons",
+        "Design uses a cohesive color scheme with good contrast",
+        "Typography is clear and readable"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Text persistence or saving functionality",
+    "Additional text transformations beyond uppercase and lowercase",
+    "User authentication or accounts",
+    "Text history or undo functionality"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

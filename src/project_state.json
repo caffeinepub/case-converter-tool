@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Case Converter Tool - A text utility that converts input text between uppercase and lowercase formats",
+  "architectural_notes": [
+    "Simple single-page HTML/CSS/JavaScript application",
+    "Uses textarea for text input/output",
+    "JavaScript string methods (toUpperCase/toLowerCase) for conversion"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-centered-text-input-area-with-placeholder-text-enter-your-text-here-that-accepts-multi-line-text-input",
+      "title": "Create a centered text input area with placeholder text 'Enter your text here...' that accepts multi-line text input",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-uppercase-button-that-converts-all-text-in-the-input-area-to-uppercase-when-clicked",
+      "title": "Implement an UPPERCASE button that converts all text in the input area to uppercase when clicked",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-lowercase-button-that-converts-all-text-in-the-input-area-to-lowercase-when-clicked",
+      "title": "Implement a lowercase button that converts all text in the input area to lowercase when clicked",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-clean-modern-design-with-centered-layout-appropriate-spacing-between-elements-and-a-minimalist-aesthetic-using-neutral-colors-and-simple-typography",
+      "title": "Apply a clean, modern design with centered layout, appropriate spacing between elements, and a minimalist aesthetic using neutral colors and simple typography",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Text input area for user to enter text",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Button to convert text to uppercase",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Button to convert text to lowercase",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Case Converter Tool",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
